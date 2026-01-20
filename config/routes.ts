@@ -1,4 +1,6 @@
-﻿export default [
+﻿import component from "@/locales/en-US/component";
+
+export default [
 	{
 		path: '/user',
 		layout: false,
@@ -23,6 +25,12 @@
 		name: 'Dashboard',
 		component: './TrangChu',
 		icon: 'HomeOutlined',
+	},
+	{
+		path:  '/product',
+		name:  'Quản lý sản phẩm',
+		icon:  'ShopOutlined',
+		component: './ProductManagement',
 	},
 	{
 		path: '/gioi-thieu',
