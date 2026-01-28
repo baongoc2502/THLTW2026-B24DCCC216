@@ -1,7 +1,7 @@
 import React, { useState } from 'react';
 import { Button, Input, Space, message } from 'antd';
-import ProductTable from '@/pages/Components/ProductTable.jsx';
-import ProductFormModal from '@/pages/Components/ProductFormModal.jsx';
+import ProductTable from '@/pages/Components/ProductTable';
+import ProductFormModal from '@/pages/Components/ProductFormModal';
 
 const initialProducts = [
   { id: 1, name: 'Laptop Dell XPS 13', price: 25000000, quantity: 10 },
