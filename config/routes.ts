@@ -1,4 +1,5 @@
 ﻿import component from "@/locales/en-US/component";
+import path from "path";
 
 export default [
 	{
@@ -25,6 +26,18 @@ export default [
 		name: 'Dashboard',
 		component: './TrangChu',
 		icon: 'HomeOutlined',
+	},
+	{
+		path: '/RandomNumber',
+		name: ' Game Đoán số',
+		component: './RandomNumber',
+		icon: 'aim',
+	},
+	{
+		path: '/Study-Manager',
+		name: 'Quản lý học tập',
+		component: './StudyManager',
+		icon: 'BookOutlined',
 	},
 	{
 		path:  '/product',
