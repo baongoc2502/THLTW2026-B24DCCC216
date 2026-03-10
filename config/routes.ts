@@ -33,11 +33,24 @@ export default [
 		component: './RandomNumber',
 		icon: 'aim',
 	},
+
 	{
 		path: '/Study-Manager',
 		name: 'Quản lý học tập',
 		component: './StudyManager',
 		icon: 'BookOutlined',
+	},
+	{
+		path: '/oan-tu-ti',
+		name: 'Oẳn Tù Tì',
+		component: './OanTuTi',
+		icon: 'ScissorOutlined',
+	},
+	{
+		path: '/question-management',
+		name: 'Quản lý câu hỏi',
+		component: './QuestionManagament',
+		icon: 'QuestionOutlined',
 	},
 	{
 		path:  '/product',

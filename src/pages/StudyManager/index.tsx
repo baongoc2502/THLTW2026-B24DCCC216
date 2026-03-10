@@ -345,12 +345,7 @@ const StudyCheck: React.FC = () => {
                       const subject = subjects.find(s => s.id === item.subjectId);
                       return (
                         <List.Item
-                            style={{
-    background: '#fafafa',
-    borderRadius: 8,
-    padding: '10px 12px',
-    marginBottom: 8,
-  }}
+                            
                           actions={[
                             <Button
                               type="text"
