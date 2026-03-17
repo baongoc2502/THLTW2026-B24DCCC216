@@ -59,6 +59,12 @@ export default [
 		component: './ProductManagement',
 	},
 	{
+		path: '/dat-lich',
+		name: 'Đặt lịch hẹn',
+		component: './DatLich',
+		icon: 'CalendarOutlined',
+	},
+	{
 		path: '/gioi-thieu',
 		name: 'About',
 		component: './TienIch/GioiThieu',
