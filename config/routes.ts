@@ -65,6 +65,12 @@ export default [
 		icon: 'CalendarOutlined',
 	},
 	{
+		path: '/diploma-management',
+		name: 'Quản lý văn bằng',
+		component: './diploma/DiplomaManagement',
+		icon: 'FileDoneOutlined',	
+	},
+	{
 		path: '/gioi-thieu',
 		name: 'About',
 		component: './TienIch/GioiThieu',
