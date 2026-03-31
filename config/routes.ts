@@ -71,6 +71,12 @@ export default [
 		icon: 'FileDoneOutlined',	
 	},
 	{
+		path: '/Clb',
+		name: 'Quản lý CLB',
+		component: './Clb',
+		icon: 'TeamOutlined',
+	},
+	{
 		path: '/gioi-thieu',
 		name: 'About',
 		component: './TienIch/GioiThieu',
