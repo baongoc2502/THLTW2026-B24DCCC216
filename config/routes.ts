@@ -1,4 +1,5 @@
 ﻿import component from "@/locales/en-US/component";
+import route from "mock/route";
 import path from "path";
 
 export default [
@@ -82,6 +83,58 @@ export default [
 		component: './TienIch/GioiThieu',
 		hideInMenu: true,
 	},
+	{
+		path: '/travel-planner',
+		name: 'Lập kế hoạch du lịch',
+		icon: 'compass',
+		component: './TravelPlanner',
+	},
+	{
+		path: '/course-manager',
+		name: 'Quản lý khóa học',
+		component: './Course/CourseManager',
+		icon: 'BookOutlined',
+	},
+	
+	{
+	path: '/blog',
+	name: 'Blog',
+	icon: 'ReadOutlined',
+	routes: [
+		{ path: '/blog', redirect: '/blog/list' },
+		{ 
+			path: '/blog/list', 
+			name: 'Danh sách bài viết', 
+			component: '@/pages/Blog/index',
+		},
+		{ 
+			path: '/blog/post/:slug', 
+			component: '@/pages/Blog/Detail',
+			hideInMenu: true,
+		},
+		{ 
+			path: '/blog/admin', 
+			name: 'Quản lý bài viết', 
+			component: '@/pages/Blog/Admin',
+		},
+		{ 
+			path: '/blog/tags', 
+			name: 'Quản lý thẻ', 
+			component: '@/pages/Blog/components/TagManager',  // ✅ SỬA ĐƯỜNG DẪN
+		},
+		{ 
+			path: '/blog/about', 
+			name: 'Giới thiệu', 
+			component: '@/pages/Blog/About',
+		},
+	]
+},
+	//{
+	//	path: '/blog/tags',
+	//	name: 'Quản lý thẻ',
+	//	component: '@/pages/Blog/TagManager',
+	//	icon: 'TagOutlined',
+	//},
 	{
 		path: '/random-user',
 		name: 'RandomUser',
