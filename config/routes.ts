@@ -127,14 +127,15 @@ export default [
 			name: 'Giới thiệu', 
 			component: '@/pages/Blog/About',
 		},
-	]
-},
-	//{
-	//	path: '/blog/tags',
-	//	name: 'Quản lý thẻ',
-	//	component: '@/pages/Blog/TagManager',
-	//	icon: 'TagOutlined',
-	//},
+		]
+	},
+	{
+		path: '/fitness-app',
+		name: 'Fitness App',
+		component: './FitnessApp',
+		icon: 'HeartOutlined',
+	},
+	
 	{
 		path: '/random-user',
 		name: 'RandomUser',
