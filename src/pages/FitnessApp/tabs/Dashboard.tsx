@@ -1,6 +1,5 @@
 import React, { useMemo } from 'react';
 import { Card, Row, Col, Statistic, Timeline, Empty } from 'antd';
-import { Column, Line } from '@ant-design/plots';
 import moment from 'moment';
 import { getData, STORAGE_KEYS } from '../utils/storage';
 
